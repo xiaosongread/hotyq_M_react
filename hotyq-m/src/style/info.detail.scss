@@ -1,0 +1,25 @@
+@charset 'utf-8';
+@import 'global.scss';
+.infomation{
+    padding: 4px 15px 15px 15px;
+    .title{
+        font-size: 23px;
+        color: #333333;
+        line-height: 33px;
+    }
+    .data{
+        font-size: 12px;
+        color: #808080;
+        line-height: 1;
+        margin-top: 4px;
+    }
+    .main{
+        margin-top: 15px;
+        width: 100%;
+        font-size: 17px;
+        line-height: 28px;
+        img{
+            width: 100%;
+        }
+    }
+}

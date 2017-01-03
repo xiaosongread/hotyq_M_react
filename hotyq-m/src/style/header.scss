@@ -1,0 +1,62 @@
+@charset 'utf-8';
+@import 'global.scss';
+.header{
+    height: 50px;
+    position: relative;
+    @include flexbox2(justify,space-between,center,center);
+    padding-left: 15px;
+    &:after{
+        content: "";
+        width: 100%;
+        height: 1px;
+        left: 0;
+        bottom: 0;
+        position: absolute;
+        background-color: #e73817;
+        transform: scaleY(0.5);
+    }
+    .logo{
+        width: 125px;
+        height: 28px;
+    }
+    .tween-one-box{
+        background-color: #fff;
+        height: 100%;
+        .tween-one{
+            width: 55px;
+            height: 100%;
+            @include flexbox2(center,center,center,center);
+            img{
+                width: 20px;
+                height: 16px;
+            }
+        }
+    }
+}
+.nav-show{
+    background-color: #eee;
+}
+.list-shadow{
+    box-shadow: 0 -5px 8px rgba(0,0,0,0.3);
+}
+.nav-list{
+    position: absolute;
+    top: 50px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0 15px;
+    background-color: #fff;
+    z-index: 999;
+    a{
+        display: block;
+    }
+    .nav-item{
+        width: 100%;
+        height: 60px;
+        border-bottom: 1px solid #eee;
+        @include flexbox-vertical-center();
+        font-size: 17px;
+        color: #333;
+    }
+}

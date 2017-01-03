@@ -1,0 +1,28 @@
+@charset 'utf-8';
+@import 'global.scss';
+.navBox{
+    padding: 0.3rem;
+    border-bottom: 1px solid #ebebeb;
+    img{
+        width: 100%;
+    }
+    .nav{
+        @include flexbox2(justify,space-between,center,center);
+        margin-top: 12px;
+        a{
+            width: 1.53rem;
+            height: 0.66rem;
+            display: box;
+            text-align: center;
+            line-height: 0.66rem;
+            border: 1px solid #bcbcbc;
+            border-radius: 4px;
+            display: block;
+            font-size: 14px;
+        }
+        .active{
+            color:#f35538 !important;
+            border:1px solid #f35538;
+        }
+    }
+}

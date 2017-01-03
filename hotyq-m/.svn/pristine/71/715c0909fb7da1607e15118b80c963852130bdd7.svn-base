@@ -1,0 +1,27 @@
+@charset 'utf-8';
+.policyBox{
+    padding: 15px;
+    h2{
+        font-size: 19px;
+        text-align: center;
+    }
+    h5{
+        font-size: 16px;
+        margin-top: 25px;
+    }
+    p{
+        font-size: 14px;
+        line-height: 30px;
+        text-align: justify;
+    }
+    h3{
+        font-size: 16px;
+        margin:16px 0;
+    }
+    .text{
+        text-indent: 2em;
+    }
+}
+:global{
+    
+}

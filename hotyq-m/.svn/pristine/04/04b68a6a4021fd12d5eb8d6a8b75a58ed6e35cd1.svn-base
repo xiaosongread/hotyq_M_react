@@ -1,0 +1,847 @@
+:global{
+    @media only screen and (min-device-width: 375px) {
+        .hotyq_box{
+            .hotyq_oneBox{
+                background: #ef5d41;
+                .hotyq_oneTitle{
+                    width: 6.3rem;
+                    margin:0 auto;
+                    padding-top: 0.56rem;
+                    img{
+                        width: 100%;
+                    }
+                }
+                .hotyq_one_phone{
+                    width: 100%;
+                    height: 6.9rem;
+                    display: -webkit-box;
+                    display: -moz-box;
+                    display: -o-box;
+                    display: -ms-box;
+                    display: box;
+                    -webkit-box-pack: center;
+                    -ms-box-pack: center;
+                    -o-box-pack: center;
+                    -moz-box-pack: center;
+                    box-pack: center;
+                    position: absolute;
+                    bottom: 1.8rem;
+                    img{
+                        width: 4.14rem;
+                        height: 100%;
+                    }
+                }
+                .hotyq_onebg_wave{
+                    width: 100%;
+                    position: absolute;
+                    z-index: 10;
+                    bottom: 0;
+                    left: 0;
+                    display: box;
+                    overflow: hidden;
+                    img{
+                        width: 100%;
+                        margin-bottom: -3px;
+                    }
+                }
+                .hotyq_one_bottomdiv{
+                    width: 100%;
+                    height: 1.8rem;
+                    position: absolute;
+                    z-index: 5;                                        
+                    bottom: 0;
+                    left: 0;
+                    -webkit-box-shadow:0 0 30px -7px #000;
+                    box-shadow:0 0 30px -7px #000;
+                    background: #ef5d41;
+                    opacity: 0.8;
+                }
+            }
+            .hotyq_TwoBox{
+                background: #2794e1;
+                .hotyq_twoTitle{
+                    width: 4.4rem;
+                    margin: 0 auto;
+                    padding-top: 0.56rem;
+                    img{
+                        width: 100%;
+                    }
+                }
+                .hotyq_two_iphoneBox{
+                    width: 2.77rem;
+                    height: 5.56rem;
+                    margin:1.6rem auto 0;
+                    position: relative;
+                    .hotyq_two_iphone{
+                        width: 100%;
+                    }
+                    .hotyq_squareOne{
+                        width: 39px;
+                        height: 39px;
+                        border: 1px solid #c2e1f7;
+                        position: absolute;
+                        top: -56px;
+                        left: 28px;
+                    }
+                    .hotyq_squareTwo{
+                        width: 35px;
+                        height: 35px;
+                        border: 1px solid #c2e1f7;
+                        position: absolute;
+                        top: -7px;
+                        right:-80px;
+                    }
+                    .hotyq_squareThree{
+                        width: 28px;
+                        height: 28px;
+                        border: 1px solid #c2e1f7;
+                        position: absolute;
+                        top: 152px;
+                        right: 19px;
+                    }
+                    .hotyq_squareFour{
+                        width: 27px;
+                        height: 27px;
+                        border: 1px solid #c2e1f7;
+                        position: absolute;
+                        bottom: 70px;
+                        right: -80px;
+                    }
+                    .hotyq_squareFive{
+                        width: 38px;
+                        height: 38px;
+                        border: 1px solid #c2e1f7;
+                        position: absolute;
+                        bottom: 63px;
+                        left: -50px;
+                    }
+                    .hotyq_two_consOne{
+                        width: 2.07rem;
+                        height: 1.05rem;
+                        position: absolute;
+                        top: -0.7rem;
+                        right: -1.14rem;
+                    }
+                    .hotyq_two_consTwo{
+                        width: 2.26rem;
+                        height: 1.27rem;
+                        position: absolute;
+                        top: 1.05rem;
+                        right: -1.8rem;
+                    }
+                    .hotyq_two_consThree{
+                        width: 1.86rem;
+                        height: 1.02rem;
+                        position: absolute;
+                        top: 2.9rem;
+                        right: -1.32rem;
+                    }
+                    .hotyq_two_consFour{
+                        width: 2.65rem;
+                        height: 1.46rem;
+                        position: absolute;
+                        bottom: -0.48rem;
+                        right: -1.8rem;
+                    }
+                    .hotyq_two_consFive{
+                        width: 2.96rem;
+                        height: 1.35rem;
+                        position: absolute;
+                        bottom: 0.36rem;
+                        left: -1.58rem;
+                    }
+                    .hotyq_two_consSix{
+                        width: 2.44rem;
+                        height: 1.34rem;
+                        position: absolute;
+                        top: 1.84rem;
+                        left: -1.85rem;
+                        z-index: 1;
+                    }
+                    .hotyq_two_consSeven{
+                        width: 1.51rem;
+                        height: 0.82rem;
+                        position: absolute;
+                        top: 1.19rem;
+                        left: -0.7rem;
+                    }
+                    .hotyq_two_consEight{
+                        width: 1.62rem;
+                        height: 0.91rem;
+                        position: absolute;
+                        top: -0.04rem;
+                        left: -1.52rem;
+                        z-index: 1;
+                    }
+                    .hotyq_two_consNine{
+                        width: 2.30rem;
+                        height: 1.13rem;
+                        position: absolute;
+                        top: -0.9rem;
+                        left: -1.07rem;
+                    }
+                    .hotyq_two_consLogo{
+                        width: 0.79rem;
+                        height: 0.79rem;
+                        position: absolute;
+                        top: 2.4rem;
+                        left: 0.98rem;
+                    }
+                }
+                .hotyq_twobg_air{
+                    width: 100%;
+                    position: absolute;
+                    bottom: 0.01rem;
+                    left: 0;
+                    img{
+                        width: 100%;
+                        margin-bottom:-3px;
+                    }
+                }
+            }
+            .hotyq_ThreeBox{
+                background: #fc8a2f;
+                .hotyq_threeTitle{
+                    width: 3.9rem;
+                    margin:0 auto;
+                    padding-top: 0.56rem;
+                    img{
+                        width: 100%;
+                    }
+                }
+                .hotyq_threeCons{
+                    width: 6.05rem;
+                    padding: 0.2rem;
+                    background: #feb276;
+                    border-radius: 4px;
+                    margin: 0.4rem auto 0;
+                    overflow: hidden;
+                    .hotyq_three_oneCons{
+                        width: 3.39rem;
+                        height: 3.2rem;
+                        float: left;
+                        margin-right: 0.06rem;
+                        overflow: hidden;
+                        li{
+                            float: left;
+                            img{
+                                width: 100%;
+                            }
+                        }
+                        li:nth-child(1){
+                            width: 2.2rem;
+                            height: 3.2rem;
+                            margin-right: 0.06rem;
+                        }
+                        li:nth-child(2),li:nth-child(3){
+                            width: 1.13rem;
+                            height: 1.57rem;
+                        }
+                        li:nth-child(3){
+                            margin-top: 0.07rem;
+                        }
+                    }
+                    .hotyq_three_twoCons{
+                        width: 2.2rem;
+                        height: 3.2rem;
+                        float: left;
+                        img{
+                          width: 100%;   
+                        }
+                    }
+                    .hotyq_three_threeCons{
+                        width: 3.39rem;
+                        height: 3.2rem;
+                        float: left;
+                        margin-right: 0.06rem;
+                        overflow: hidden;
+                        li{
+                            img{
+                                width: 100%;
+                            }
+                        }
+                        li:nth-child(1){
+                            width: 1.13rem;
+                            height: 1.57rem;
+                            margin-right: 0.06rem;
+                            margin-top: 0.07rem;
+                            float: left;
+                        }
+                        li:nth-child(2){
+                            width: 2.2rem;
+                            height: 3.2rem;
+                            margin-top: 0.07rem;
+                            float: right;
+                        }
+                        li:nth-child(3){
+                            width: 1.13rem;
+                            height: 1.57rem;
+                            margin-right: 0.06rem;
+                            margin-top: 0.07rem;
+                            float: left;
+                        }
+                    }
+                    .hotyq_three_fourCons{
+                        width: 2.2rem;
+                        height: 3.2rem;
+                        float: left;
+                        overflow: hidden;
+                        li{
+                            width: 1.06rem;
+                            height: 1.57rem;
+                            overflow: hidden;
+                            float: left;
+                            img{
+                                width: 100%;
+                            }
+                        }
+                        li:nth-child(1),li:nth-child(3){
+                            margin-right:0.06rem
+                        }
+                        li:nth-child(1),li:nth-child(2){
+                            margin-top:0.07rem
+                        }
+                    }
+                }
+            }
+            .hotyq_FourBox{
+                background: url(img/hotyq_four_bg.png) no-repeat;
+                background-size: cover;
+                 .hotyq_four_Title{
+                    width: 5.6rem;
+                    height: 0.55rem;
+                    margin: 0 auto;
+                    padding-top: 0.56rem;
+                    img{
+                        width: 100%;
+                    }
+                }
+                .hotyq_four_cons{
+                    width: 6.11rem;
+                    height: 4.43rem;
+                    margin:1.2rem auto 0;
+                    display: block;
+                }
+                .hotyq_four_words{
+                    width: 5.61rem;
+                    height: 1.55rem;
+                    margin:0.42rem auto 0;
+                    display: block;
+                }
+            }
+            .hotyq_FiveBox{
+                background: #884cb5;
+                 .hotyq_five_Title{
+                    width: 4.82rem;
+                    height: 0.52rem;
+                    margin:0 auto;
+                    padding-top: 0.56rem;
+                    img{
+                        width: 100%;
+                    }
+                }
+                .hotyq_five_bottombg{
+                    width: 100%;
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                }
+                .hotyq_five_cons{
+                    width: 6.28rem;
+                    height: 7.13rem;
+                    margin: 1rem auto 0;
+                    display: block;
+                }
+    
+            }
+            .hotyq_SixBox{
+                background: #e7246d;
+                .hotyq_sixTitle{
+                    width: 6.3rem;
+                    height: 0.54rem;
+                    margin:0 auto;
+                    padding-top: 0.56rem;
+                    img{
+                    width: 100%;
+                }
+            }
+            .Hotyq_downBox{
+                p{
+                    margin-top: 0.4rem;
+                }
+            }
+            .hotyq_six_cons{
+                width: 6.38rem;
+                margin:1.2rem auto 0;
+                overflow: hidden;
+                li{
+                    width: 3.05rem;
+                    height: 2.11rem;
+                    margin-bottom:0.23rem;
+                    float: left;
+                    img{
+                        width: 100%;
+                    }
+                }
+                li:nth-of-type(2n){
+                    margin-left: 0.23rem;
+                }
+            }
+            .hotyq_six_bottombg{
+                width: 100%;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                display: block;
+            }
+        }
+        .slider-slide{
+            overflow:hidden;
+        }
+    }
+    }
+//  iphone5 尺寸
+    @media only screen and (min-device-width : 320px) and (max-device-width : 374px) {
+        .hotyq_box{
+            .hotyq_oneBox{
+                background: #ef5d41;
+                .hotyq_oneTitle{
+                    width: 6.3rem;
+                    margin:0 auto;
+                    padding-top: 0.56rem;
+                    img{
+                        width: 100%;
+                    }
+                }
+                .hotyq_one_phone{
+                    width: 100%;
+//                  height: 6.9rem;
+                    position: absolute;
+                    bottom: 1.35rem;
+                    img{
+                        width: 3.4rem;
+                        height:6.08rem;
+                        margin:0 auto;
+                        display:block;
+                    }
+                }
+                .hotyq_onebg_wave{
+                    width: 100%;
+                    position: absolute;
+                    z-index: 10;
+                    bottom: 0;
+                    left: 0;
+                    display: box;
+                    overflow: hidden;
+                    img{
+                        width: 100%;
+                        margin-bottom: -3px;
+                    }
+                }
+                .hotyq_one_bottomdiv{
+                    width: 100%;
+                    height: 1.35rem;
+                    position: absolute;
+                    z-index: 5;                                        
+                    bottom: 0;
+                    left: 0;
+                    -webkit-box-shadow:0 0 30px -7px #000;
+                    box-shadow:0 0 30px -7px #000;
+                    background: #ef5d41;
+                    opacity: 0.8;
+                }
+            }
+            .hotyq_TwoBox{
+                background: #2794e1;
+                .hotyq_twoTitle{
+                    width: 4.4rem;
+                    margin: 0 auto;
+                    padding-top: 0.56rem;
+                    img{
+                        width: 100%;
+                    }
+                }
+                .hotyq_two_iphoneBox{
+                    width: 2.04rem;
+//                  height: 5.56rem;
+                    margin:1.6rem auto 0;
+                    position: relative;
+                    .hotyq_two_iphone{
+                        width: 100%;
+                    }
+                    .hotyq_squareOne{
+                        width: 0.6rem;
+                        height: 0.6rem;
+                        border: 1px solid #c2e1f7;
+                        position: absolute;
+                        top: -0.88rem;
+                        left: 0.41rem;
+                    }
+                    .hotyq_squareTwo{
+                        width: 0.55rem;
+                        height: 0.55rem;
+                        border: 1px solid #c2e1f7;
+                        position: absolute;
+                        top: -0.14rem;
+                        right:-0.72rem;
+                    }
+                    .hotyq_squareThree{
+                        width: 0.44rem;
+                        height: 0.44rem;
+                        border: 1px solid #c2e1f7;
+                        position: absolute;
+                        top: 2.4rem;
+                        right: 0.24rem;
+                    }
+                    .hotyq_squareFour{
+                        width: 0.44rem;
+                        height: 0.44rem;
+                        border: 1px solid #c2e1f7;
+                        position: absolute;
+                        bottom: 0.88rem;
+                        right: -1.06rem;
+                    }
+                    .hotyq_squareFive{
+                        width: 0.54rem;
+                        height: 0.54rem;
+                        border: 1px solid #c2e1f7;
+                        position: absolute;
+                        bottom: 0.95rem;
+                        left: -0.83rem;
+                    }
+                    .hotyq_two_consOne{
+                        width: 1.56rem;
+//                      height: 0.78rem;
+                        position: absolute;
+                        top: -0.54rem;
+                        right: -1.13rem;
+                    }
+                    .hotyq_two_consTwo{
+                        width: 1.7rem;
+//                      height: 1.27rem;
+                        position: absolute;
+                        top: 0.83rem;
+                        right: -1.41rem;
+                    }
+                    .hotyq_two_consThree{
+                        width: 1.4rem;
+//                      height: 1.02rem;
+                        position: absolute;
+                        top: 2.2rem;
+                        right: -1.05rem;
+                    }
+                    .hotyq_two_consFour{
+                        width: 2rem;
+//                      height: 1.46rem;
+                        position: absolute;
+                        bottom: -0.37rem;
+                        right: -1.4rem;
+                    }
+                    .hotyq_two_consFive{
+                        width: 2.23rem;
+//                      height: 1.35rem;
+                        position: absolute;
+                        bottom: 0.3rem;
+                        left: -1.23rem;
+                    }
+                    .hotyq_two_consSix{
+                        width: 1.85rem;
+//                      height: 1.34rem;
+                        position: absolute;
+                        top: 1.41rem;
+                        left: -1.44rem;
+                        z-index: 1;
+                    }
+                    .hotyq_two_consSeven{
+                        width: 1.12rem;
+//                      height: 0.82rem;
+                        position: absolute;
+                        top: 0.92rem;
+                        left: -0.56rem;
+                    }
+                    .hotyq_two_consEight{
+                        width: 1.2rem;
+//                      height: 0.91rem;
+                        position: absolute;
+                        top: -0.06rem;
+                        left: -1.2rem;
+                        z-index: 1;
+                    }
+                    .hotyq_two_consNine{
+                        width: 1.75rem;
+//                      height: 1.13rem;
+                        position: absolute;
+                        top: -0.7rem;
+                        left: -0.85rem;
+                    }
+                    .hotyq_two_consLogo{
+                        width: 0.6rem;
+                        height: 0.6rem;
+                        position: absolute;
+                        top: 1.84rem;
+                        left: 0.7rem;
+                    }
+                }
+                .hotyq_twobg_air{
+                    width: 100%;
+                    position: absolute;
+                    bottom: 0.01rem;
+                    left: 0;
+                    img{
+                        width: 100%;
+                        margin-bottom:-3px;
+                    }
+                }
+            }
+            .hotyq_ThreeBox{
+                background: #fc8a2f;
+                .hotyq_threeTitle{
+                    width: 3.9rem;
+                    margin:0 auto;
+                    padding-top: 0.56rem;
+                    img{
+                        width: 100%;
+                    }
+                }
+                .hotyq_threeCons{
+                    width: 5.15rem;
+                    padding: 0.2rem;
+                    background: #feb276;
+                    border-radius: 4px;
+                    margin: 0.7rem auto 0;
+                    overflow: hidden;
+                    .hotyq_three_oneCons{
+                        width: 2.83rem;
+                        height: 2.65rem;
+                        float: left;
+                        margin-right: 0.06rem;
+                        overflow: hidden;
+                        li{
+                            float: left;
+                            img{
+                                width: 100%;
+                            }
+                        }
+                        li:nth-child(1){
+                            width: 1.82rem;
+                            height: 2.65rem;
+                            margin-right: 0.06rem;
+                        }
+                        li:nth-child(2),li:nth-child(3){
+                            width: 0.95rem;
+                            height: 1.3rem;
+                        }
+                        li:nth-child(3){
+                            margin-top: 0.07rem;
+                        }
+                    }
+                    .hotyq_three_twoCons{
+                        width: 1.82rem;
+                        height: 2.65rem;
+                        float: left;
+                        img{
+                          width: 100%;   
+                        }
+                    }
+                    .hotyq_three_threeCons{
+                        width: 2.83rem;
+                        height: 2.65rem;
+                        float: left;
+                        margin-right: 0.06rem;
+                        overflow: hidden;
+                        li{
+                            img{
+                                width: 100%;
+                            }
+                        }
+                        li:nth-child(1){
+                            width: 0.95rem;
+                            height: 1.3rem;
+                            margin-right: 0.06rem;
+                            margin-top: 0.07rem;
+                            float: left;
+                        }
+                        li:nth-child(2){
+                            width: 1.82rem;
+                            height: 2.65rem;
+                            margin-top: 0.07rem;
+                            float: right;
+                        }
+                        li:nth-child(3){
+                            width: 0.95rem;
+                            height: 1.3rem;
+                            margin-right: 0.06rem;
+                            margin-top: 0.07rem;
+                            float: left;
+                        }
+                    }
+                    .hotyq_three_fourCons{
+                        width: 1.82rem;
+                        height: 2.65rem;
+                        float: left;
+                        overflow: hidden;
+                        li{
+                            width: 0.88rem;
+                            height: 1.265rem;
+                            overflow: hidden;
+                            float: left;
+                            img{
+                                width: 100%;
+                            }
+                        }
+                        li:nth-child(1),li:nth-child(3){
+                            margin-right:0.06rem
+                        }
+                        li:nth-child(1),li:nth-child(2){
+                            margin-top:0.07rem
+                        }
+                    }
+                }
+            }
+            .hotyq_FourBox{
+                background: url(img/hotyq_four_bg.png) no-repeat;
+                background-size: cover;
+                 .hotyq_four_Title{
+                    width: 5.6rem;
+                    height: 0.55rem;
+                    margin: 0 auto;
+                    padding-top: 0.56rem;
+                    img{
+                        width: 100%;
+                    }
+                }
+                .hotyq_four_cons{
+                    width: 4.75rem;
+//                  height: 4.43rem;
+                    margin:1.5rem auto 0;
+                    display: block;
+                }
+                .hotyq_four_words{
+                    width: 5.61rem;
+                    height: 1.55rem;
+                    margin:0.42rem auto 0;
+                    display: block;
+                }
+            }
+            .hotyq_FiveBox{
+                background: #884cb5;
+                 .hotyq_five_Title{
+                    width: 4.82rem;
+                    height: 0.52rem;
+                    margin:0 auto;
+                    padding-top: 0.56rem;
+                    img{
+                        width: 100%;
+                    }
+                }
+                .hotyq_five_bottombg{
+                    width: 100%;
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                }
+                .hotyq_five_cons{
+                    width: 5.1rem;
+//                  height: 7.13rem;
+                    margin: 1.4rem auto 0;
+                    display: block;
+                }
+    
+            }
+            .hotyq_SixBox{
+                background: #e7246d;
+                .hotyq_sixTitle{
+                    width: 6.3rem;
+                    height: 0.54rem;
+                    margin:0 auto;
+                    padding-top: 0.56rem;
+                    img{
+                    width: 100%;
+                }
+            }
+            .Hotyq_downBox{
+                p{
+                    margin-top: 0.3rem;
+                    z-index:100;
+                    position:relative;
+                }
+            }
+            .hotyq_six_cons{
+                width: 5rem;
+                margin:1.5rem auto 0;
+                overflow: hidden;
+                li{
+                    width: 2.4rem;
+//                  height: 2.11rem;
+                    margin-bottom:0.1rem;
+                    float: left;
+                    img{
+                        width: 100%;
+                    }
+                }
+                li:nth-of-type(2n){
+                    margin-left: 0.2rem;
+                }
+            }
+            .hotyq_six_bottombg{
+                width: 100%;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                display: block;
+            }
+        }
+    }
+    }
+    .Hotyq_downBox{
+        width: 100%;
+        height: 1.35rem;
+        position: absolute;
+        z-index: 5;
+        bottom: 0;
+        left: 0;
+        z-index: 160;
+        p{
+            width: 2.84rem;
+            height: .6rem;
+            line-height: .6rem;
+            text-align: center;
+            color: #fff;
+            border: 1px solid #fff;
+            margin: 0 auto;
+            margin-top: .22rem;
+            font-size: .3rem;
+        }
+        .afterpage{
+                width: 100%;
+                height: .6rem;
+                line-height: .6rem;
+                text-align: center;
+                .down{
+                    ont-size: .56rem;
+                    color: #fff;
+                    opacity: .6;
+                }
+        }
+    }
+    .slider-decorator-2,.slider-decorator-0{
+       display: none;
+    }
+    .slider-decorator-1{
+        top:100% !important;
+        left:50%;
+        transform: translate(-50%,-50%) !important;
+        margin-top:-0.35rem;
+        width: 2.4rem !important;
+        height: 0.7rem !important;
+        opacity: 0;
+        button{
+             width: 2.4rem !important;
+            height: 0.7rem !important;
+            background: yellow;
+        }
+    }
+    .slider-slide{
+        overflow:hidden;
+    }
+}

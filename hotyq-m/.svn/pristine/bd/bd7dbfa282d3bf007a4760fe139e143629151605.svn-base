@@ -1,0 +1,25 @@
+@charset 'utf-8';
+:global{
+    .companyHistory{
+        color: #333333;
+        padding: 0.3rem;
+        .companyHistoryItem{
+            .companyHistoryItemYear{
+                font-size: 25px;
+                line-height: 25px;
+                margin-bottom: 19px;
+                color: #f25537;
+            }
+            .companyHistoryItemCons{
+                font-size: 15px;
+                line-height: 18px;
+                margin-bottom: 20px;
+                .companyHistoryItemDate{
+                    line-height: 15px;
+                    color: #bcbcbc;
+                    margin-bottom: 14px;
+                }
+            }
+        }
+    }
+}

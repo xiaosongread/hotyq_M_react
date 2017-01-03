@@ -1,0 +1,85 @@
+@charset 'utf-8';
+:global{
+    .teamIntroductionBigBox{
+    .teamIntroduction{
+        padding:0.3rem;
+        img{
+            width: 100%;
+            border-radius: 4px;
+        }
+        p{
+            text-align: center;
+            color: #6b6b6b;
+            font-size: 13px;
+            line-height: 13px;
+            margin-top: 16px;
+        }
+    }
+    .TeamIntroduction_BigImgBox{
+        width: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 99;
+        .TeamIntroduction_bg{
+            position: fixed;
+            top: 0;
+            left: 0;
+            background: #000;
+            width: 100%;
+            opacity: .8;
+            z-index: 80;
+        }
+        .TeamIntroduction_cons{
+            width: 5.2rem;
+            position: relative;
+            z-index: 100;
+            margin:0 auto;
+            border-radius: 4px;
+            overflow: hidden;
+            .leader_bigImg_baobao_cons{
+                width: 100%;
+                height: 3.2rem;
+                background: #fff;
+                margin-top: -4px;
+                padding:11px;
+                p{
+                    font-size:13px;
+                    color:#333333;
+                    margin-bottom:0.18rem;
+                }
+                .leader_bigImg_baobao_introduce{
+                    height:85px;
+                    overflow-y:auto;
+                    p{
+                        font-size:12px;
+                        line-height:17px;
+                        color:#767676;
+                        margin-bottom:0;
+                    }
+                }
+            }
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+    .slider-decorator-0,.slider-decorator-1{
+        display: none;
+    }
+    .slider-decorator-2 button{
+        padding:0 !important;
+    }
+    @media only screen and (min-device-width : 320px) and (max-device-width : 374px) {
+        .TeamIntroduction_cons{
+            margin-top:0.4rem !important;
+        }
+        .leader_bigImg_baobao_cons{
+            p{
+                margin-bottom: 0.12rem !important;
+            }
+        }
+    }
+    }
+}

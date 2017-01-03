@@ -1,0 +1,254 @@
+@charset 'utf-8';
+:global{
+    .companyProfileBigBox{
+    .companyProfile{
+        padding: 0.3rem;
+        line-height: 0.4rem;
+        font-size: 14px;
+        color: #333333;
+        .hotyq_cons{
+            height: 3.2rem;
+            overflow: hidden;
+            div{
+                text-indent:2em;
+            }
+        }
+        .more{
+            width: 100%;
+            height: 25px;
+            line-height: 25px;
+            background: #f7f7f7;
+            text-align: center;
+            margin-top: 20px;
+            .iconfont{
+                color: #333333;
+                font-size: 13px;
+                margin-left: 3px;
+                margin-right: 3px;
+                font-weight: bold;
+            }
+        }
+        .rotates{
+            display: inline-block;
+            transform:rotate(180deg);
+            -ms-transform:rotate(180deg);
+            -moz-transform:rotate(180deg);
+            -webkit-transform:rotate(180deg);
+            -o-transform:rotate(180deg);
+        }
+        .companyAward{
+            p{
+                font-size: 15px;
+                color: #333333;
+                margin:16px 0;
+            }
+            ul{
+                overflow: hidden;
+                li{
+                    width: 2.2rem;
+                    float: left;
+                    img{
+                        width: 100%;
+                    }
+                }
+                li:nth-of-type(3n + 2){
+                    margin:0 0.15rem;
+                }
+            }
+        }
+        .companyLeaderSpeak{
+            p{
+                font-size: 15px;
+                color: #333333;
+                margin:16px 0 55px;
+            }
+            .companyLeaderWords{
+                width: 100%;
+                height: 271px;
+                border: 1px solid #e73817;
+                background: #f9ebe8;
+                position: relative;
+                .borderCorner{
+                    width: 23px;
+                    height: 23px;
+                    position: absolute;
+                }
+                .topLeft{
+                    top: 0;
+                    left: 0;
+                }
+                .topRight{
+                    top: 0;
+                    right: 0;
+                }
+                .bottomRight{
+                    bottom: 0;
+                    right: 0;
+                }
+                .bottomLeft{
+                    bottom: 0;
+                    left: 0;
+                }
+                .LeaderHeader{
+                    width: 91px;
+                    height: 91px;
+                    margin:-44px auto 0;
+                    border: 2px solid #fff;
+                    border-radius: 50%;
+                    overflow: hidden;
+                    img{
+                        width: 100%;
+                    }
+//                  position: absolute;
+//                  top: 44px;
+//                  left: ;
+                }
+                p{
+                    margin: 0;
+                    padding: 15px 12px 0;
+                    font-size: 0.26rem;
+                    line-height: 0.32rem;
+                }
+                span{
+                    display: block;
+                    padding-right: 12px;
+                    font-size:14px;
+                    line-height: 14px;
+                    margin-top:15px;
+                    text-align: right;
+                    position: relative;
+                }
+                span:before{
+                    content: "";
+                    width: 44px;
+                    height: 1px;
+                    position: absolute;
+                    background-color: #4e4c4b;
+                    top: 6px;
+                    right: 75px;
+                }
+            }
+        }
+        
+        .companyMedia{
+            #youkuplayer{
+                width: 100%;
+                height: 100%;
+            }
+            p{
+                font-size: 15px;
+                color: #333333;
+                margin:16px 0;
+            }
+            .companyMediaBox{
+                width: 100%;
+                height: 4.07rem;
+                border: 1px solid #e73817;
+                background: #f9ebe8;
+                position: relative;
+                padding: 10px;
+                .borderCorner{
+                    width: 23px;
+                    height: 23px;
+                    position: absolute;
+                }
+                .topLeft{
+                    top: 0;
+                    left: 0;
+                }
+                .topRight{
+                    top: 0;
+                    right: 0;
+                }
+                .bottomRight{
+                    bottom: 0;
+                    right: 0;
+                }
+                .bottomLeft{
+                    bottom: 0;
+                    left: 0;
+                }
+                iframe{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }  
+    }
+    .TeamIntroduction_BigImgBox{
+        width: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 999;
+        .TeamIntroduction_bg{
+            position: fixed;
+            top: 0;
+            left: 0;
+            background: #000;
+            width: 100%;
+            z-index: 80;
+        }
+        .TeamIntroduction_cons{
+            width: 100%;
+            position: relative;
+            z-index: 100;
+            margin:0 auto;
+            overflow: hidden;
+            .pagination-container{
+                position: relative;
+                .lookPage{
+                    position: absolute;
+                    bottom: 0.4rem;
+                    right: 0.3rem;
+                    color: #fff;
+                    font-size: 10px;
+                    .nowPage{
+                        font-size: 15px;
+                    }
+                }
+                .lookBigImg{
+                    width: 100%;
+                    img{
+                        width: 100%;
+                        display: -webkit-box;
+                        display: box;
+                    }
+                }
+                .BigImg_introduceCons{
+                    padding: 0 1.43rem 0 0.3rem;
+                    font-size: 18px;
+                    line-height: 21px;
+                    color: #fff;
+                    margin-top: 0.6rem;
+                }
+            }
+        }
+    }
+    .slider-decorator-0,.slider-decorator-1{
+        display: none;
+    }
+    .slider-decorator-2{
+        display:none;
+    }
+    .kaiguan{
+        width:100%;
+        height:100%;
+        padding:10px;
+        position:absolute;
+        top:0;
+        left:0;
+        .baobao_fenmian{
+            width:100%;
+            height:100%;
+        }
+        .baobaoPlayBtn{
+            width:0.78rem;
+            height:0.78rem;
+            position:absolute;
+            top:1.64rem;
+            left:calc((100% - 0.78rem) / 2);
+        }
+    }
+    }
+}

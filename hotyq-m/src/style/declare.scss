@@ -1,0 +1,16 @@
+@charset 'utf-8';
+.declare{
+    padding: 15px;
+    h2{
+        font-size: 19px;
+        text-align: center;
+    }
+    p{
+        font-size: 14px;
+        line-height: 30px;
+        text-align: justify;
+    }
+}
+:global{
+    
+}
